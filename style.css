@@ -1,3 +1,61 @@
 .divone{
-    background: blue;
+    background: url(./images/hero-cover.3.png);
+    background-repeat: none;
+    background-size: cover;
+    background background-attachment: scroll;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+.navigation ul li{
+    padding: 0 50px 0 50px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.login button{
+     color: white;
+     background-color: #23A6F0;
+     border:#23A6F0 ; 
+     width: 300px;
+     height: 40px;
+ 
+}
+.login p{
+    padding: 0 50px 0 50px;
+}
+#intromessage{
+    display: flex;
+    justify-content: center;
+}
+.intromessage{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.intromessage p{
+    font-size: 40px;
+}
+#btn1{
+    background-color: #23A6F0;
+    height: 60px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+#btn2{
+    background: none;
+    height: 60px;
+    width: 250px;
+    border: solid white;
+    border-radius: 25px;
+    color: white;
 }
